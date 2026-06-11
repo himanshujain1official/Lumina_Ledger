@@ -1,0 +1,6 @@
+{
+  "name": "Lumina Ledger",
+  "description": "Lumina Ledger: The Semantic Dispute Agent using Microsoft Fluent Design principles",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-fluent-primary: #0078D4;
+  --color-fluent-teal: #00B7C3;
+  --color-fluent-dark: #242424;
+  --color-fluent-bg: #F3F4F6;
+  --font-sans: "Segoe UI", "system-ui", "Inter", sans-serif;
+}
+
+.markdown-body h1, .markdown-body h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-fluent-dark);
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.markdown-body h3 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color-fluent-primary);
+  letter-spacing: 0.05em;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.markdown-body p, .markdown-body li {
+  font-size: 0.875rem;
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.markdown-body ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+.markdown-body ol {
+  list-style-type: decimal;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.markdown-body strong {
+  font-weight: 600;
+  color: var(--color-fluent-dark);
+}
