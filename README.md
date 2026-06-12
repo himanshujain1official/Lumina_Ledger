@@ -18,23 +18,31 @@ Built with a focus on absolute **Reliability & Safety** (20% Rubric weight) and 
 ## 🏗️ Architecture & Flow Matrix
 
  [Unstructured Raw Input] (WhatsApp/Email Text Heap)
+
                         │
                         ▼
 ┌────────────────────────────────────────────────────────┐
-│   Agent 1: Ingestion & Token Synthesizer (Gemini API)  │ ──► Structuring & Entity Extraction
+│   Agent 1: Ingestion & Token Synthesizer (Gemini API)  │ 
+│              [Structuring & Entity Extraction]         │ 
 └────────────────────────────────────────────────────────┘
+
                         │
                         ▼
 ┌────────────────────────────────────────────────────────┐
-│  Agent 2: Foundry Local Auditor Layer (Reasoning CoT)  │ ──► Step-by-Step Agreement Analysis
+│  Agent 2: Foundry Local Auditor Layer (Reasoning CoT)  │ 
+│           [Step-by-Step Agreement Analysis]            │ 
 └────────────────────────────────────────────────────────┘
+
                         │
                         ▼
 ┌────────────────────────────────────────────────────────┐
-│   Agent 3: Conflict Matrix Evaluator & Safety Filter   │ ──► Grounded Validation (No Cloud Required)
+│   Agent 3: Conflict Matrix Evaluator & Safety Filter   │
+│            [Grounded Validation (No Cloud Required)]   │
 └────────────────────────────────────────────────────────┘
+
                         │
                         ▼
+                        
  [Fluent Light UI Dashboard] ──► [Client-Side Downloadable Report (.md)]
 
  ---
