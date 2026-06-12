@@ -17,33 +17,30 @@ Built with a focus on absolute **Reliability & Safety** (20% Rubric weight) and 
 
 ## 🏗️ Architecture & Flow Matrix
 
- [Unstructured Raw Input] (WhatsApp/Email Text Heap)
-
+  [Unstructured Raw Input] (WhatsApp/Email Text Heap)
+ 
                         │
                         ▼
-┌────────────────────────────────────────────────────────┐
-│   Agent 1: Ingestion & Token Synthesizer (Gemini API)  │ 
-│              [Structuring & Entity Extraction]         │ 
-└────────────────────────────────────────────────────────┘
 
+   Agent 1: Ingestion & Token Synthesizer (Gemini API)   
+              [Structuring & Entity Extraction]  
+              
                         │
                         ▼
-┌────────────────────────────────────────────────────────┐
-│  Agent 2: Foundry Local Auditor Layer (Reasoning CoT)  │ 
-│           [Step-by-Step Agreement Analysis]            │ 
-└────────────────────────────────────────────────────────┘
 
+  Agent 2: Foundry Local Auditor Layer (Reasoning CoT)  
+           [Step-by-Step Agreement Analysis]  
+           
                         │
                         ▼
-┌────────────────────────────────────────────────────────┐
-│   Agent 3: Conflict Matrix Evaluator & Safety Filter   │
-│            [Grounded Validation (No Cloud Required)]   │
-└────────────────────────────────────────────────────────┘
+
+   Agent 3: Conflict Matrix Evaluator & Safety Filter   
+            [Grounded Validation (No Cloud Required)]   
 
                         │
                         ▼
                         
- [Fluent Light UI Dashboard] ──► [Client-Side Downloadable Report (.md)]
+  [Fluent Light UI Dashboard] ──► [Client-Side Downloadable Report (.md)]
 
  ---
 
@@ -65,6 +62,7 @@ Ensure you have **Node.js** installed locally on your system.
 
 git clone 
 [https://github.com/himanshujain1official/Lumina_Ledger.git] (https://github.com/himanshujain1official/Lumina_Ledger.git)
+
 **cd Lumina_Ledger**
 
 #### 2. Dependency Resolution:- 
@@ -79,7 +77,7 @@ npm run dev
 
 Open your browser and navigate to the mapped local address (typically http://localhost:3000) to experience the fully functional Fluent light app container.
 
-**License**
+### License
 
 This repository is distributed under the terms of the MIT License.
 Developed as part of the Microsoft AI Skills Fest / Agents League Hackathon 2026.
